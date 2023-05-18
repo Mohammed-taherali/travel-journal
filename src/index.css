@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #F34F50;
+    color: white;
+}
+
+.location-tag {
+    width: 15px;
+    height: 15px;
+}
+
+.img-container {
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.plane-icon {
+    transform: rotate(-40deg);
+    width: 30px;
+    height: 30px;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 3px 2px #222121;
+    width: 500px;
+    height: 350px;
+}
+
+.card:last-of-type {
+    margin-bottom: 50px;
+}
+
+.main-title {
+    display: inline;
+    font-size: x-large;
+}
+
+.main-photo {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-right: 1.2em;
+}
+
+.desc {
+    text-align: justify;
+}
+
+.section-header {
+    /* border: 1px solid; */
+    margin: 0;
+}
+
+.location {
+    letter-spacing: 1px;
+}
+
+.maplink {
+    color: #777777;
+}
+
+.title {
+    margin-top: 5px;
+    /* border: 1px solid; */
+}
+
+.duration {
+    /* border: 1px solid; */
+    margin: 0;
+    margin-top: 10px;
+}
