@@ -5,7 +5,7 @@ export default function Card(props) {
     return (
         <section className="card">
             <div className="col1">
-                <img className="main-photo" src={`../images/${props.info.coverImg}`} />
+                <img className="main-photo" src={props.info.coverImg} />
             </div>
             <div className="col2">
                 <p className="section-header"><img className="location-tag" src="location-tag.svg" /> <span className="location">{props.info.location}</span> <span><a className="maplink" target="_blank" href={props.info.mapLink}>View on Google Maps</a></span></p>
